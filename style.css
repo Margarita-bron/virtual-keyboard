@@ -3,7 +3,7 @@
     width: 100%;
     left: 0;
     bottom: 0;
-    height: 200px;
+    height: 400px;
     padding: 5px 0;
     background: #c4cdfd;
     box-shadow: 0 0 40px rgba(0,0,0,.5);
@@ -41,10 +41,17 @@
 
     outline: none;
     cursor: pointer;
+
+    transition: color 0.1s linear;
+}
+
+.keyboard-key:hover{
+    background: rgba(255,255,255,.20);
 }
 
 .keyboard-key:active{
-    background: rgba(255,255,255,.15);
+    background: rgba(255,255,255,.11);
+    border-radius: 12px;
 }
 
 .keyboard-key__wide{
@@ -52,7 +59,7 @@
 }
 
 .keyboard-key__space{
-    width: 36%;
+    width: 55%;
     max-width: 500px;
 }
 
